@@ -8,8 +8,8 @@ namespace HelloWorld1
         static void Main(string[] args)
         {
             for (int i = 0; i < 1000; i++) {
-                string val = TurnNumberIntoString(i);
-                Console.WriteLine(val);
+                string NumberAsSTring = TurnNumberIntoString(i);
+                Console.WriteLine(NumberAsSTring);
             }
 
             ////int[] things = new int[]{ 1, 2, 3 };
